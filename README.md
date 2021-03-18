@@ -21,6 +21,7 @@ Project Organization
     │               └── locationName_compare.csv   <- Save the dataset for the location locationName as locationName_compare.csv 
     │                                                   The first column must be time, 5th column must be the raw sensor value of the aimed pollutant and last
     │                                                   column must be the ground truth pollutant concentration
+    │                                                   Note: The last training and the last validation months needs to be set by hand in main_new.py.
     │ 
     ├── main_new.py                    <- Main training script to train NetSED and NetglobalSED variants
     │
