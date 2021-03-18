@@ -19,6 +19,9 @@ Project Organization
     │       └── processed     
     │           └── co-located
     │               └── locationName_compare.csv   <- Save the dataset for the location locationName as locationName_compare.csv 
+    │                                                   The first column must be time, 5th column must be the raw sensor value of the aimed pollutant and last
+    │                                                   column must be the ground truth pollutant concentration
+    │ 
     ├── main_new.py                    <- Main training script to train NetSED and NetglobalSED variants
     │
     ├── models_new.py                  <- Model definitions of NetSED and NetglobalSED variants
