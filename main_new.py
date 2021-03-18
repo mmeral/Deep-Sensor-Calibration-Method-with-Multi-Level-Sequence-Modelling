@@ -348,7 +348,7 @@ if __name__ == '__main__':
     parser.add_argument('--location', type=str, default='changping',
                             help='The name of the location')
     
-    parser.add_argument('--modelType', type=str, default='NetglobalSEDv4',
+    parser.add_argument('--modelType', type=str, default='NetSED',
                             help='Type of the model: NetSED, NetglobalSEDv1, NetglobalSEDv2, NetglobalSEDv3,NetglobalSEDv4, NetglobalSEDv5')
     
     parser.add_argument('--inputLength', type=int, default=24,
